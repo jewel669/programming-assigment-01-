@@ -1,0 +1,45 @@
+
+header{
+    background-image: url(../images/Head-bg.png);
+    max-width: 1540px;
+    height: 698px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    height: 151px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.heading-title{
+   width: 905px;
+   height: 245px;
+  margin-top: 158px;
+   text-align: center;
+   margin:0 auto;
+}
+.head-title{
+    color: #4E47FF;
+    font-weight:bolder;
+}
+.heading-sub-title{
+    font-weight: bolder;
+   
+}
+ul li{
+    list-style-type: none;
+}
+.btn-primary{
+   background-color:#4E47FF;
+   color: white;
+   font-weight: bolder;
+   padding:10px 15px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+button:hover{
+    background-color: rgb(245, 155, 122);
+    color: black;
+}
