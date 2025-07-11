@@ -2,6 +2,9 @@
     font-family: "Open Sans", sans-serif;
 
 }
+body{
+    margin: 0 auto;
+}
 
 header {
     background-image: url(../images/Head-bg.png);
@@ -64,8 +67,8 @@ ul li {
 }
 
 .btn-primary:hover {
-    background-color: rgb(245, 155, 122);
-    color: black;
+    background-color: #1f2e9ccd;
+    color: rgb(255, 255, 255);
 }
 
 .webflow-action {
@@ -137,7 +140,15 @@ ul li {
 
 .content-banner {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    margin: 0 auto;
+}
+.card-card{
+    display: flex;
+    /* text-align: center; */
+    margin: 0 auto;
+    gap:50px;
+    
 }
 
 .iamges-icon {
@@ -153,6 +164,9 @@ ul li {
     border-radius: 9999px;
 
 
+}
+main{
+    margin: 0 auto;
 }
 
 .p3-2 {
