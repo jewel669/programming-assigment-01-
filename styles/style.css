@@ -154,7 +154,8 @@ ul li {
 
 
 }
-.p3-2{
+
+.p3-2 {
     padding: 5px;
 }
 
@@ -248,11 +249,10 @@ form {
     border-radius: 10px;
     cursor: pointer;
 }
-.footpa{
-  
-    
-}
-.head-titles{
+
+.footpa {}
+
+.head-titles {
     font-weight: bolder;
     font-size: 70px;
     color: #4E47FF;
@@ -260,28 +260,30 @@ form {
 
 }
 
-.footpa-head{
+.footpa-head {
 
     text-align: center;
     text-wrap: wrap;
-    
+
 }
-.navbar{
+
+.navbar {
     margin-left: 450px;
     margin-right: 450px;
     display: flex;
     gap: 25px;
-     justify-content: space-evenly;
-  
+    justify-content: space-evenly;
+
 }
-   
-ul li a{
+
+ul li a {
     list-style-type: none;
     text-decoration: none;
-       color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
-.footers{
-    padding-top:60px;
-   padding-bottom: 50px;
-   background-color: rgb(249, 249, 249);
+
+.footers {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    background-color: rgb(249, 249, 249);
 }
