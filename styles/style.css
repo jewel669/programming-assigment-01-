@@ -1,18 +1,21 @@
-*{
+* {
     font-family: "Open Sans", sans-serif;
+
 }
 
-header{
+header {
     background-image: url(../images/Head-bg.png);
     max-width: 1540px;
     height: 698px;
 }
-.head-icon-title{
-    color:rgb(248, 63, 11);
+
+.head-icon-title {
+    color: rgb(248, 63, 11);
     font-weight: 800px;
-    
+
 }
-.heading{
+
+.heading {
     display: flex;
     justify-content: space-between;
     max-width: 100%;
@@ -22,92 +25,107 @@ header{
     /* margin-top:50px; */
 
 }
-.heading-title{
-   /* width: 905px;
+
+.heading-title {
+    /* width: 905px;
    height: 245px; */
-  margin-top: 158px;
-   text-align: center;
-   margin:0 auto;
-   font-weight: bold;
-   font-size: 34px;
+    margin-top: 158px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 34px;
 }
-.head-title{
+
+.head-title {
     color: #4E47FF;
-    font-weight:bolder;
+    font-weight: bolder;
 }
-.heading-sub-title{
+
+.heading-sub-title {
     font-weight: bolder;
     font-weight: bold;
     font-size: 65px;
     margin: 0 auto;
 
-   
+
 }
-ul li{
+
+ul li {
     list-style-type: none;
 }
-.btn-primary{
-   background-color:#4E47FF;
-   color: white;
-   font-weight: bolder;
-   padding:10px 15px;
-   border-radius: 10px;
-   cursor: pointer;
+
+.btn-primary {
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bolder;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
 }
-button:hover{
+
+.btn-primary:hover {
     background-color: rgb(245, 155, 122);
     color: black;
 }
-.webflow-action{
+
+.webflow-action {
     height: 203px;
     width: 300px;
     text-wrap: wrap;
     padding: 30px;
-   
+
 }
-.action-title{
-font-weight: bold;
-font-size: 42px;
+
+.action-title {
+    font-weight: bold;
+    font-size: 42px;
 }
-.user-title{
-    color:#8987A1
+
+.user-title {
+    color: #8987A1
 }
-.action-header{
+
+.action-header {
     display: flex;
     justify-content: space-around;
     margin-bottom: 70px;
-   
+
     height: 328px;
-     margin-top: 70px;
+    margin-top: 70px;
 }
-.mini-picture{
+
+.mini-picture {
     border-radius: 30px;
 }
-.user-head{
+
+.user-head {
     font-weight: bold;
     font-size: 38px;
     text-align: center;
 }
-.user-say{
+
+.user-say {
     text-align: center;
-    font-size:42px  ;
+    font-size: 42px;
     font-weight: bold;
 }
-.user-percent{
+
+.user-percent {
     font-weight: bold;
     font-size: 80px;
     color: #4E47FF;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.user-count{
-  
-}
-.active-user{
+
+.user-count {}
+
+.active-user {
     display: flex;
     justify-content: space-around;
 }
-.main-class{
+
+.main-class {
     margin: 0px 150px;
     background-color: #dedef1;
     border-radius: 20px;
@@ -115,29 +133,43 @@ font-size: 42px;
     height: 306px;
 
 }
-.content-banner{
+
+.content-banner {
     display: flex;
     justify-content: space-around;
 }
-.iamges-icon{
+
+.iamges-icon {
+    gap: 20px;
     display: flex;
-    
-}
-.pakhi-image{
-    border-radius: 9999px;
+    align-items: center;
+
 }
 
-.icon-img{
+.pakhi-image {
+    height: 40px;
+    width: 40px;
+    border-radius: 9999px;
+
+
+}
+.p3-2{
+    padding: 5px;
+}
+
+.icon-img {
     background-color: antiquewhite;
     border-radius: 20px;
     padding: 10px;
-    
+
 }
-.focus-head{
+
+.focus-head {
     font-size: 50px;
     font-weight: bold;
 }
-.ready-focus{
+
+.ready-focus {
     margin-top: 100px;
     margin-left: 200px;
     margin-right: 200px;
@@ -145,16 +177,73 @@ font-size: 42px;
     background-color: #e4dede;
     padding: 30px 30px;
 }
-.focusd{
+
+.focusd {
     text-align: center;
 
 }
-.bgc-image{
+
+.bgc-image {
     border-radius: 50px;
     margin-top: 40px;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 
-    
+
+}
+
+.from-name {
+    font-size: 97px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 250px;
+}
+
+form {
+    margin-top: 200px;
+    align-items: center;
+
+
+}
+
+.fromclass {
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.from-class {
+    width: 300px;
+    height: 50px;
+    padding: 30px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+.textlabel {
+    margin-right: 100px;
+
+    font-weight: bold;
+
+
+}
+
+.get-in {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-primaryy {
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bolder;
+    padding: 10px 130px;
+    border-radius: 10px;
+    cursor: pointer;
 }
