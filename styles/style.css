@@ -1,3 +1,6 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
 
 header{
     background-image: url(../images/Head-bg.png);
@@ -20,11 +23,13 @@ header{
 
 }
 .heading-title{
-   width: 905px;
-   height: 245px;
+   /* width: 905px;
+   height: 245px; */
   margin-top: 158px;
    text-align: center;
    margin:0 auto;
+   font-weight: bold;
+   font-size: 34px;
 }
 .head-title{
     color: #4E47FF;
@@ -32,6 +37,10 @@ header{
 }
 .heading-sub-title{
     font-weight: bolder;
+    font-weight: bold;
+    font-size: 65px;
+    margin: 0 auto;
+
    
 }
 ul li{
@@ -49,25 +58,103 @@ button:hover{
     background-color: rgb(245, 155, 122);
     color: black;
 }
-.secendary{
-    width: 1140px;
-    height: 329px;
-    background-color: #fff;
-    display: flex;
-    margin: 0 auto;
-    margin-top: 70px;
-    gap:400px;
-}
-.secendary-title-name{
-    width: 300px;
+.webflow-action{
     height: 203px;
-     margin:auto 0;
+    width: 300px;
+    text-wrap: wrap;
+    padding: 30px;
+   
+}
+.action-title{
+font-weight: bold;
+font-size: 42px;
+}
+.user-title{
+    color:#8987A1
+}
+.action-header{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+   
+    height: 328px;
+     margin-top: 70px;
+}
+.mini-picture{
+    border-radius: 30px;
+}
+.user-head{
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+}
+.user-say{
+    text-align: center;
+    font-size:42px  ;
+    font-weight: bold;
+}
+.user-percent{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.user-count{
   
 }
-.title-description{
+.active-user{
+    display: flex;
+    justify-content: space-around;
+}
+.main-class{
+    margin: 0px 150px;
+    background-color: #dedef1;
+    border-radius: 20px;
+    padding: 70px 150px;
+    height: 306px;
 
 }
+.content-banner{
+    display: flex;
+    justify-content: space-around;
+}
+.iamges-icon{
+    display: flex;
+    
+}
+.pakhi-image{
+    border-radius: 9999px;
+}
 
-.picci-image{
+.icon-img{
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.focus-head{
+    font-size: 50px;
+    font-weight: bold;
+}
+.ready-focus{
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
     border-radius: 30px;
+    background-color: #e4dede;
+    padding: 30px 30px;
+}
+.focusd{
+    text-align: center;
+
+}
+.bgc-image{
+    border-radius: 50px;
+    margin-top: 40px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+    
 }
